@@ -1,0 +1,228 @@
+@font-face{
+    font-family: "IRANSansWeb";
+    src: url(../webfonts/IRANSansWeb_Medium.ttf) format("truetype") , 
+    url(../webfonts/IRANSansWeb_Medium.woff) format("woff");
+}
+:root{
+    --black:#2c2c54;
+    --orange:#ff9f1a;
+}  
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "IRANSansWeb";
+}
+.container{
+    width: 70rem;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 90px;
+}
+.logo-nav{
+    width: 100px;
+    height: 100%;
+}
+.navbar a{
+    color: var(--black);
+    margin-left: 10px;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: var(--orange);
+}
+.icons a{
+    color: var(--black);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.icons a:hover{
+    color: var(--orange);
+}
+.header-bootom{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+.content-right{
+    width: 600px;
+}
+.content-right span{
+    color: var(--orange);
+    font-size: 20px;
+}
+.content-right h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+.content-right p{
+    color: #666;
+    font-size: 17px;
+    width: 515px;
+    padding: 8px 0;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid var(--black);
+    font-size: 18px;
+    cursor: pointer;
+    background-color: var(--orange);
+    padding: 8px 16px;
+    color: var(--black);
+    transition: all 0.5s;
+    font-weight: 500;
+}
+.content-left img{
+    width: 500px;
+}
+.services{
+    margin-top: 2rem;
+}
+.box-container{
+    display: flex;
+    gap: 20px;
+    background: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    padding: 20px;
+}
+.box i{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--orange);
+}
+.box h3{
+    font-size: 20px;
+    color: var(--black);
+}
+.box p{
+    font-size: 16px;
+    color: #666;
+    padding: 10px 0;
+}
+.produces{
+    margin-top: 20px;
+}
+.produce-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem;
+    
+}
+.produce-heading span{
+    color: var(--orange);
+}
+.produces-container{
+    display: flex;
+    gap: 1rem;
+}
+.produces-box{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 30px 50px;
+    background: #f9f9f9;
+    margin-left: 44px;
+}
+.produces-box img{
+    width: 230px;
+}
+.produces-content{
+    margin-top: 25px;
+}
+.produces-content h3{
+    color: var(--black);
+    font-size: 1.8rem;
+}
+.prices{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.prices span{
+    color: var(--orange);
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.stars i{
+    font-size: 1rem;
+    color: var(--orange);
+}
+.customers{
+    margin-top: 2rem;
+}
+.customer-heading{
+    color: var(--black);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+.customer-heading span{
+    color: var(--orange);
+}
+.customer-container{
+    display: flex;
+    gap: 1rem;
+}
+.box-customer{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 30px 50px;
+    background: #f9f9f9;
+    margin-left: 44px;
+    width: 400px;
+}
+.box-customer img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 42px;
+}
+.box-customer h3{
+    color: var(--black);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.box-customer p{
+    color: #666;
+    font-size: 1rem;
+}
+.footer{
+    margin-top: 2rem;
+}
+.footer-container{
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #f9f9f9;
+    padding: 1rem;
+    display: flex;
+    grid-area: 1rem;
+    gap: 7rem;
+}
+.box-footer h3{
+    color: var(--black);
+    font-size: 1.6rem;
+    padding: 12px;
+}
+.box-footer a{
+    color: #666;
+    font-size: 1.1rem;
+    display: block;
+    padding: 8px 10px;
+}
+.credit{
+    text-align: center;
+    padding: 1rem;
+    color: black;
+}

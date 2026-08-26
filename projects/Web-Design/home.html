@@ -1,0 +1,120 @@
+<!doctype html>
+<html dir="rtl">
+<head>
+  <title>فروشگاه ایرانیان</title> 
+  <link rel="stylesheet"   href="home.css">
+</head>
+<body>
+    <header style="width:90%;margin:auto;margin-top:20px;">
+        <h1>فروشگاه لوازم خانگی ایرانیان</h1>
+		<div style="margin:auto;">
+			<nav>
+				<ul>
+					<li><a href="#" style="padding:6px;color:white;background-color:#023047;border-radius:10px;box-shadow:5px 10px 20px #3D3D3D;">خانه</a></li>
+					<li><a href="info.html">درباره ما</a></li>
+					<li><a href="tamas.html">تماس با ما</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+		
+	<main>
+		<div class="box">
+			<img src="photo/shop.png" alt="Image Title">
+			<h2>همه لوازم خونه رو از اینجا بخر!</h2>
+			<p>هر چی که نیاز داری توی فروشگاه ما وجود داره</p>
+		</div>
+	</main>
+    <section>
+        <div class="product" > 
+			<div style="float:Right;width:45%;margin-right:15px;">
+            <h2>مخلوط کن برقی</h2>
+            <p id="1">✅موتور دو سرعته</p>
+            <b><p class="2">قیمت 2.500.000 تومان</p></b>
+			</div>
+			<div style="float:Left;width:50%;">
+				<img alt="new" src="photo/1.jpg" style="border-radius:20px;width:200px;" >
+			</div>
+			<div class="btn1"><button class="buy">اطلاعات بیشتر و خرید</button></div>
+			
+			<div class="btn2">
+			<button onclick="change1()" class="like"><img id="heart1" alt="new" src="photo/heart.svg"></button>
+			</div>
+        </div>
+		
+		
+        <div class="product" >
+			<div style="float:Right;width:45%;margin-right:15px;">
+            <h2>همزن برقی</h2>
+            <p id="1">✅3 سری مختلف</p>
+            <b><p class="2">قیمت 1.200.000 تومان</p></b>
+			</div>
+			<div style="float:Left;width:50%;">
+				<img alt="new" src="photo/2.jpg" style="border-radius:20px;width:200px;" >
+			</div>
+			<div class="btn1"><button class="buy">اطلاعات بیشتر و خرید</button></div>
+			
+			<div class="btn2">
+			<button onclick="change2()" class="like"><img id="heart2" alt="new" src="photo/heart.svg"></button>
+			</div>
+        </div>
+			
+			
+        <div class="product" >
+			<div style="float:Right;width:45%;margin-right:15px;">
+            <h2>مایکروفر</h2>
+            <p id="1">✅ با دو المنت</p>
+            <b><p class="2">قیمت 4.750.000 تومان</p></b>
+			</div>
+			<div style="float:Left;width:50%;">
+				<img alt="new" src="photo/3.jpg" style="border-radius:20px;width:200px;" >
+			</div>
+			<div class="btn1"><button class="buy">اطلاعات بیشتر و خرید</button></div>
+			
+			<div class="btn2">
+			<button onclick="change3()" class="like"><img id="heart3" alt="new" src="photo/heart.svg"></button>
+			</div>
+        </div>
+		
+		
+			
+    </section>
+	
+
+    <footer>
+        <p>ساخته شده توسط ساناز اشرف پور</p>
+    </footer>
+	
+	
+	<script>
+				function change1(){
+					var image = document.getElementById('heart1');
+					if(image.src.match("heart.svg")){
+					image.src="photo/favorite.svg";
+					alert("به علاقه مندی ها اضافه شد");}
+					else
+					{image.src="photo/heart.svg";}
+				}
+				
+				function change2(){
+					var image = document.getElementById('heart2');
+					if(image.src.match("heart.svg"))
+					{
+					image.src="photo/favorite.svg";
+					alert("به علاقه مندی ها اضافه شد");
+					}
+					else
+					{image.src="photo/heart.svg";}
+				}
+				
+				function change3(){
+					var image = document.getElementById('heart3');
+					if(image.src.match("heart.svg")){
+					image.src="photo/favorite.svg";
+					alert("به علاقه مندی ها اضافه شد");}
+					else
+					{image.src="photo/heart.svg";}
+				}	
+	</script>
+</body>
+</html>

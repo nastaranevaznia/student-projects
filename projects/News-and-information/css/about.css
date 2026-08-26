@@ -1,0 +1,310 @@
+.wholecls{
+    margin:auto;
+
+    width: 960px;
+}
+body{
+    background-color:#081e30;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.headercls,.titlecls{
+    float: left;
+}
+.headercls,.head,.tail,.footercls{
+    position: relative;
+    padding: 0px;
+
+}
+.footercls{
+    float: left;
+    margin-top: auto;
+    position: relative;
+
+}
+
+.titlecls{
+    position: relative;
+    bottom: 70px;
+    left: 270px;
+    z-index: 10;
+}
+.menucls{
+    position: relative;
+    bottom: 50px;
+}
+.menucls a{
+    text-decoration: none;
+    color: black;
+}
+.menucls ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 55px;
+}
+.menucls li{
+    display: inline-block;
+    position: relative;
+    z-index: 11;
+}
+.menucls ul li {
+    float: left;
+    display: block;
+    width: 115px;
+    line-height: 55px;
+    font-size: 14px;
+    color: #081e30;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
+    text-shadow: 1px 1px 1px #f5f5f5;
+}
+.menucls ul li:hover {
+    background: url("../gallery/4.png") no-repeat;
+}
+.fixcls{
+    background: url("../gallery/4.png") no-repeat;
+}
+.maincls{
+    position: relative;
+    bottom: 110px;
+    padding: 0px;
+    margin: 0px;
+}
+.tail{
+    width: 960px;
+    background: url("../gallery/6.jpg") no-repeat;
+    float: left;
+    z-index: 15;
+
+}
+.right,.middle,.left{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    color:#9ac1e3 ;
+
+
+}
+.right li,.middle li{
+    list-style:url("../gallery/8.png") ;
+    padding-bottom: 10px;
+}
+.right a,.middle a{
+    text-decoration: none;
+    color: #6eb5ff;
+}
+.left{
+    color: #9ac1e3;
+}
+.footertxt{
+    position: absolute;
+    left: 300px;
+    bottom: 55px;
+    color: white;
+    z-index: 15;
+}
+.footertxt a{
+    color: white;
+    text-decoration-color: white;
+}
+.footertail{
+    position: relative;
+    bottom: 35px;
+}
+.firsttxt{
+    position: absolute;
+    float: left;
+    bottom: 50px;
+    width:600px ;
+    color: #9ac1e3;
+    padding: 20px;
+    background: none;
+}
+.firsttxt a{
+    text-decoration: none;
+    color:#6eb5ff;
+}
+.firsttxt img{
+    position: relative;
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+}
+.firsttxt li{
+    color:#5093cd ;
+    list-style: url("../gallery/8.png");
+    padding: 5px;
+}
+.banner{
+    position: absolute;
+    float: left;
+    width: 250px;
+    height: 250px;
+    background: url("../gallery/10.jpg") no-repeat #081e30;
+    background-position:  center;
+    left: 660px;
+    bottom: 270px;
+    border-style: solid;
+    border: #194569 5px;
+    padding: 14px;
+}
+.rightlist{
+    position: absolute;
+    float: left;
+    width: 250px;
+    height: 250px;
+    background:#081e30;
+    color: #fff;
+    left: 660px;
+    bottom: 20px;
+    border-style: solid;
+    border: #194569 5px;
+    padding: 14px;
+}
+.rightlist li{
+    color: #5093cd;
+    padding: 5px;
+    list-style:url("../gallery/8.png") ;
+}
+.secright{
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 300px;
+    background:#081e30;
+    color: #9ac1e3;
+    left: 670px;
+    bottom: 80px;
+    border-style: solid;
+    border: #194569 5px;
+    padding: 14px;
+
+}
+.secright a{
+    color: #6eb5ff;
+    text-decoration-color: #6eb5ff;
+}
+.datebox{
+    width: 115px;
+    height: 115px;
+    background: url("../gallery/12.png") no-repeat;
+    position: relative;
+    float: left;
+    left: 20px;
+    bottom: 200px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.datecls{
+    position: relative;
+    bottom: 10px;
+    font-size: 18px;
+}
+.comments{
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+    color: black;
+}
+.deatails{
+    position: relative;
+    float: left;
+    color: white;
+    bottom: 210px;
+    left: 50px;
+}
+.deatsec{
+    position: relative;
+    float: left;
+    color: white;
+    width: 450px;
+    height: 32px;
+    background: #051624;
+    text-align: left;
+    padding: 5px;
+}
+.deatsec a{
+    color: #6eb5ff;
+}
+.deatpic{
+    width: 450px;
+    height: 320px;
+    position: absolute;
+    left: 5px;
+    top: 120px;
+    color: #9ac1e3;
+}
+.Continue{
+    background: url("../gallery/14.png") no-repeat;
+    height: 28px;
+    width: 142px;
+    position: absolute;
+    float: left;
+    left: 320px;
+    padding: 2px;
+
+}
+.Continue a{
+    color: #7095b5;
+    text-decoration: none;
+}
+.hrcls{
+    background: url("../gallery/15.png") no-repeat;
+    position: relative;
+    float: left;
+    width: 630px;
+    height: 37px;
+    top: 10px;
+    right: 170px;
+}
+.secdeatpic{
+    position: relative;
+    float: left;
+    top: 430px;
+    right: 580px;
+}
+.secdatebox{
+    width: 115px;
+    height: 115px;
+    background: url("../gallery/12.png") no-repeat;
+    position: relative;
+    float: left;
+    right: 550px;
+    top: 280px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.deatthird{
+    position: absolute;
+    float: left;
+    color: white;
+    width: 450px;
+    height: 32px;
+    background: #051624;
+    text-align: left;
+    padding: 5px;
+}
+.deatthird a{
+    color: #6eb5ff;
+}
+.lastpc{
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 320px;
+    top: 30px;
+}
+.deatails2{
+    position: relative;
+    float: left;
+    color: white;
+    left: 170px;
+    top: 150px;
+}
