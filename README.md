@@ -1,2 +1,2 @@
 # student-projects
-پروژه‌های دانشجویان - نمونه‌کارهای آموزشی
+Student projects - Educational portfolio
